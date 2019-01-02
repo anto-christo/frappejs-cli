@@ -16,8 +16,8 @@ let getConfig, getElectronMainConfig;
 
 function makeConfig() {
   const appConfig = getAppConfig();
-  const isProduction = process.env.NODE_ENV === 'production';
-  const isElectron = process.env.ELECTRON === 'true';
+  const isProduction = true;//process.env.NODE_ENV === 'production';
+  const isElectron = true;//process.env.ELECTRON === 'true';
   const isMonoRepo = process.env.MONO_REPO === 'true';
 
   const whiteListedModules = ['vue'];
