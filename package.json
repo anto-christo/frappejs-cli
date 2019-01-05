@@ -23,6 +23,7 @@
     "inquirer": "^6.2.0",
     "ora": "^3.0.0",
     "path": "^0.12.7",
+    "url-loader": "^1.1.2",
     "vue-loader": "^15.4.2",
     "vue-template-compiler": "^2.5.17",
     "webpack": "^4.20.2",

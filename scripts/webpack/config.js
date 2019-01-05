@@ -77,10 +77,11 @@ function makeConfig() {
               'file-loader'
             ]
           },
-          { test: /\.(woff|woff2)$/,
+          {
+            test: /\.(woff|woff2)$/,
             use: [
               'url-loader?limit=100000'
-            ] 
+            ]
           }
         ]
       },
